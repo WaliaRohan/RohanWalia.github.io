@@ -95,16 +95,10 @@
     <section class="sample-text-area">
       <div class="container">
         <h3 class="text-heading">
-          Some of the robotics projects I've completed.
+          Academic Projects
         </h3>
         <p>
-          An icon <i class="fa fa-file-text-o"></i> indicates that a published
-          document is available for more details. An icon
-          <i class="fa fa-youtube-play"></i> indicates that a video result is
-          available. Finally, icon
-          <i class="fa fa-file-powerpoint-o"></i> indicates the a presentation
-          is available. A combination of the tutorial types are indicated by the
-          presence of multiple icons.
+          A highlight of some of the projects I have worked on over the course of my Masters and PhD so far. 
         </p>
       </div>
     </section>
@@ -121,77 +115,81 @@
               background-color: #333;
             "
           />
-          <h3 class="mb-30">Multi Robots System</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/MultiRobotSystems/ASTER.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Autonomous Swarming for Teams of Exploration Robots (ASTER)</h4>
-                  <p>
-                    Collaborated with JPL, NASA, and Charles River Analytics (CRA) to design a system where multiple Leo rovers autonomously explore, detect, and execute tasks, ensuring robust communication and decision-making
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/MultiRobotSystems/MatlabMRTA.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Multi Robot Task Allocation for Heterogeneous System</h4>
-                  <h2>
-                    <a href="https://youtu.be/n-SI9gFiMKc"
-                      ><i class="fa fa-youtube-play"></i></a
-                    >&nbsp;&nbsp;<a href="https://arxiv.org/pdf/2306.11936.pdf"
-                      ><i class="fa fa-file-text-o"></i
-                    ></a>
-                  </h2>
-                  <p>
-                    Developed methods for scheduling tasks in diverse,
-                    multi-robot systems where each robot possesses a unique set
-                    of skills.
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/MultiRobotSystems/BAE-MultiRobotIndoorSLAM.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Multi-Robot SLAM System for Indoor Locale</h4>
-                  <h2>
-                    <a href="https://youtu.be/88q97ng9dxA"
-                      ><i class="fa fa-youtube-play"></i></a
-                    >&nbsp;&nbsp;<a href="https://youtu.be/BhEIPlERjH8"
-                      ><i class="fa fa-youtube-play"></i></a
-                    >&nbsp;&nbsp;<a
-                      href="https://digital.wpi.edu/concern/student_works/gb19f8967?locale=en"
-                      ><i class="fa fa-file-text-o"></i></a
-                    >&nbsp;&nbsp;<a
-                      href="https://digital.wpi.edu/concern/etds/fb494c62r?locale=en"
-                      ><i class="fa fa-file-text-o"></i
-                    ></a>
-                  </h2>
-                  <p>
-                    An end-to-end solution for decentralized map synchronization
-                    with occupancy grids for swarm robotic systems.
-                  </p>
-                </div>
-              </section>
-            </div>
+        </div>
+        <h3 class="mb-30">AI for Robotics</h3>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section id="projects" class="services">
+              <div class="icon-box">
+                <img
+                  class="img-fluid"
+                  src="img/projects/AI/control_allocation.png"
+                  style="padding-bottom: 15px"
+                  alt="Neural Network Control Allocation"
+                />
+
+                <h4>
+                  Neural Network Control Allocation for Ship Thrusters
+                </h4>
+
+                <p>
+                  <strong>Aug 2024 – Dec 2024</strong><br />
+                  Control Allocation separates high-level control commands from low-level control system architecture.
+                  In this project, implemented a multi-layer perceptron encoder–decoder network that maps
+                  force and moment requests to thruster commands for dynamic positioning
+                  of autonomous ships. Designed a composite loss enforcing command
+                  fidelity, thruster saturation limits, and power minimization.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                  <a
+                    href="https://github.com/WaliaRohan/ml_for_robotics/tree/main/control_allocation/src"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </p>
+              </div>
+            </section>
           </div>
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section class="services">
+              <div class="icon-box">
+                <img
+                  class="img-fluid"
+                  src="img/projects/AI/LSTM_traj.png"
+                  style="padding-bottom: 15px"
+                  alt="LSTM Trajectory Prediction"
+                />
+
+                <h4>
+                  LSTM-Based Trajectory Prediction for 3D Dubins Paths
+                </h4>
+
+                <p>
+                  <strong>Aug 2024 – Dec 2024</strong><br />
+                  Designed an LSTM-based network for generating 3D Dubins-compliant
+                  trajectories using only the initial pose, goal position, and climb
+                  angle. Trained with MSE loss on a custom synthetic dataset of 432,000
+                  variable-length trajectories.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                  <a
+                    href="https://github.com/WaliaRohan/ml_for_robotics/tree/main/trajectory_prediction"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </p>
+              </div>
+            </section>
+          </div>
+        
+        </div>
+
           <hr
             style="
               height: 10px;
@@ -200,65 +198,83 @@
               background-color: #333;
             "
           />
-          <h3 class="mb-30">Humanoid Robotics</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/Humanoid/AtlasWholeBodyImitation.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Whole Body Human Motion Imitation by Humanoid Robots</h4>
-                  <h2>
-                    <a href="https://youtu.be/EMuVFlPfLZs"
-                      ><i class="fa fa-youtube-play"></i></a
-                    >&nbsp;&nbsp;<a href="https://youtu.be/-rRMPj65n_Y"
-                      ><i class="fa fa-file-powerpoint-o"></i
-                    ></a>
-                  </h2>
-                  <p>
-                    A method for teleoperating humanoid robots through the
-                    imitation of human operator body motions
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/Humanoid/AtlasWheelControl.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Autonomous Valve Operation by Atlas Robot</h4>
-                  <p>
-                    The task of navigation to the detected valve, and
-                    manipulated it with motion planners using the generated
-                    circular trajectory..
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/Humanoid/BaxerLocoMotion2.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Loco-manipulation of Baxter Robot</h4>
-                  <p>
-                    An autonomous navigation framework for robots with
-                    unreachable manipulation goal pose
-                  </p>
-                </div>
-              </section>
-            </div>
+      <h3 class="mb-30">Path planning and Navigation</h3>
+       <div class="row">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section class="services">
+              <div class="icon-box">
+
+                <!-- Video -->
+                <video
+                  class="img-fluid"
+                  style="padding-bottom: 15px;"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                >
+                  <source src="img/projects/nav/px4.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+
+                <h4>Adaptive Drone Navigation</h4>
+
+                <p>
+                  <strong>March 2024</strong><br />
+                  Developed a C++ ROS 2 package for PX4-based aerial vehicles
+                  enabling autonomous and sequential traversal of trajectory waypoints.
+                  Implemented dynamic obstacle avoidance with shortest return to the
+                  designated route and engineered a finite-state machine for navigation,
+                  avoidance, and expedited path re-entry. Designed for PX4 SITL and Gazebo,
+                  with extensibility to real hardware.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                  <a
+                    href="https://github.com/WaliaRohan/px4_nav"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </p>
+              </div>
+            </section>
           </div>
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section class="services">
+              <div class="icon-box">
+
+                <video class="w-100" autoplay loop muted playsinline style="padding-bottom: 15px; display:block;">
+                  <source src="img/projects/nav/dijkstra_av1.webm" type="video/webm" />
+                  <source src="img/projects/nav/dijkstra.mp4" type="video/mp4" />
+                </video>
+
+                <h4>Path Planning Algorithms</h4>
+
+                <p>
+                  <strong>Jan 2021 – May 2021</strong><br />
+                  Implemented classical graph- and sampling-based path planners including
+                  Dijkstra, A*, ANA*, RRT, RRT*, and Bi-directional RRT*. Image-based planners
+                  take a map image, start location, and goal location, and compute collision-free
+                  paths using binary occupancy grids derived via OpenCV. Planner performance
+                  was evaluated under increasing map sizes and obstacle densities.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                  <a
+                    href="https://github.com/WaliaRohan/path_planning_algorithms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </p>
+
+              </div>
+            </section>
+          </div>
+        </div>
 
           <hr
             style="
@@ -269,97 +285,78 @@
             "
           />
 
-          <h3 class="mb-30">Artificial Intelligence/Machine Learning</h3>
+          <h3 class="mb-30">Controls and Dynamics</h3>
           <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/DexNet2.0.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Implementation of 'Grasp Quality CNN' (GQ-CNN) Using Dex-Net 2.0</h4>
-                  <h2></h2>
-                  <p>
-                    Implemented a deep learning approach for grasp planning that predicts the probability of grasp success using a CNN. The method achieved high accuracy for producing robust grasps for objects.
-                  </p>
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section class="services">
+              <div class="icon-box">
+
+                <img
+                  class="img-fluid"
+                  src="img/projects/core/lqr_quad.png"
+                  style="padding-bottom: 15px"
+                  alt="LQR Control of a Quadcopter"
+                />
+
+                <h4>LQR Control of a Quadcopter</h4>
+
+                <p>
+                  <strong>Aug 2020 – Dec 2020</strong><br />
+                  Implemented a Linear Quadratic Regulator (LQR) for a 6-DOF quadcopter in
+                  MATLAB to stabilize hover and track trajectories. The controller was
+                  designed using a linearized quadrotor dynamics model to optimize the
+                  trade-off between thrust performance and battery consumption.
+                </p>
+
+                <p style="margin-bottom: 0;">
+                  <a
+                    href="https://github.com/WaliaRohan/LQR_Quadrotor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </p>
+
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
+            <section class="services">
+              <div class="icon-box">
+
+                <!-- YouTube video -->
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 15px;">
+                  <iframe
+                    src="https://www.youtube.com/embed/mkqAILqskTs"
+                    title="Custom Differential Drive Robot"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                  ></iframe>
                 </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/GraspNet.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Implementation of 6-DOF GraspNet for Object Manipulation</h4>
-                  <h2></h2>
-                  <p>
-                    Implemented a deep learning-based approach for generating a 6-DOF grasp configurations using a CNN. The method enabled robots to grasp diverse objects with robust grasps for object manipulation.
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/Bejeweled.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Bejeweled Bot with Reinforcement Learning</h4>
-                  <h2>
-                    <a href="https://youtube.com/shorts/OjPp028qu3E?"
-                      ><i class="fa fa-youtube-play"></i
-                    ></a>
-                  </h2>
-                  <p>
-                    A bot that learns to make the optimal moves for the game
-                    Bejeweled.
-                  </p>
-                </div>
-              </section>
-            </div>
+
+                <h4>Custom Differential Drive Robot</h4>
+
+                <p>
+                  <strong>Aug 2020 – Dec 2020</strong><br />
+                  Designed and constructed a custom differential-drive mobile robot using
+                  a Raspberry Pi, four DC motors, and an L293 motor driver. Established SSH-based
+                  remote access for control, monitoring, and debugging, and implemented Python
+                  scripts to translate velocity trajectory setpoints into PWM duty-cycle
+                  commands for motor actuation.
+                </p>
+
+              </div>
+            </section>
+          </div>
+
             <!-- End top-category-widget Area -->
-          </div>
+        </div>
           <hr />
           
-          <hr
-            style="
-              height: 10px;
-              border: none;
-              color: #333;
-              background-color: #333;
-            "
-          />
-
-          <h3 class="mb-30">Controls</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/Controls/QuadCapture.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Design and Validation of a Linear Controller for a Quadrotor</h4>
-                  <h2></h2>
-                  <p>
-                    Designed a controller that can operate in restricted airspace.
-                    Completed objective to fly and capture an unknown aerial vehicle and then return to the base
-                  </p>
-                </div>
-              </section>
-            </div>
-        </div>
-      </div>
-    </div>
-
+         
     <!-- End timeline Area -->
     <!-- EDIT FOOT -->
     <!-- start footer Area -->
